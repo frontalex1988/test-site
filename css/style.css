@@ -254,7 +254,7 @@ main .center {
 	width: 203px;
 	padding-left: 20px;
 	margin-top: 24px;
-	margin-left: -5.5px;
+	margin-left: -6px;
 }
 
 .slider a {
@@ -386,10 +386,6 @@ a .blockstat {
 }
 
 /*CONTENT*/
-.content {
-	width: 789px
-}
-
 a.content_a {
 	color: white;
 }
@@ -497,6 +493,9 @@ p.button_black:hover {
 	margin-top: 150px;
 }
 
+.content{
+	width: 789px;
+}
 .content h2 {
 	font-family: Brutal Type;
 	font-style: normal;
@@ -911,6 +910,9 @@ br{
 	.sidebar{
 		display: none;
 	}
+	.content{
+		width: 768px;
+	}
 	.content .block_1,
 	.content .block_2,
 	.content .block_3{
@@ -950,6 +952,7 @@ br{
 	}
 	.content .block_2{
 	background: url("../img/768px/Photo_2.jpg");
+	margin-right: 0;
 	}
 	.content .block_3{
 	background: url("../img/768px/Photo_3.jpg");
@@ -990,6 +993,7 @@ br{
 
 	.footer{
 		width: 768px;
+		margin-left: 0;
 	}
 
 	.footer .footerblock{
@@ -997,20 +1001,23 @@ br{
 		width: 325px;
         height: 520px;
 		margin-top: 46px;
-		margin-left: 2px;
 	}
+	.footerblock_1{
+		margin-left: 15px;
+	}
+
 	.footer>h2{
 		margin-top: 5px;
-		margin-left: 2px;
+		margin-left: 15px;
 	}
 	.footer .footerblock:last-child{
 		display: inherit;
-	    width: 65px;
+	    width: 60px;
 	    overflow: hidden;
 	    margin-right: 0;
 	}
 	.footer>div:nth-of-type(3){
-		margin-right: 20px;
+       margin-right: 20px;
 	}
 	.slider li:hover {
 		background: url("../img/Main/Ellipse 2.1.svg") no-repeat 0 4px;
@@ -1167,20 +1174,11 @@ br{
 		padding-bottom: 3px;
 		border-bottom: 2px solid  #F7AB32;
 	}
-	.Bottom_block>div{
-		margin-right: 16px;
-		margin-top: 23px;
-		margin-left: -1px;
-		
+
+    .Bottom_block{
+	   display: flex;
 	}
-	.Bottom_block .Bottom_block_2{
-		width: 40px;
-		overflow: hidden;
-			margin-right: 0;
-	}
-	.Bottom_block_3{
-		display: none;
-	}
+
 	.Bottom_block .content_like{
 		float: inherit;
 		margin-left: 20px;
