@@ -1175,15 +1175,15 @@ br{
 		border-bottom: 2px solid  #F7AB32;
 	}
 
-    .Bottom_block{
+  .Bottom_block{
 	   display: flex;
-	   width: 100%;
+	   overflow: hidden;
 	}
 
 	.Bottom_block .content_like{
 		float: inherit;
 		margin-left: 20px;
-	    margin-top: 77px;
+	        margin-top: 77px;
 	}
 
 	.footer{
