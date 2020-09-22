@@ -668,18 +668,21 @@ br{
 }
 
 .arrow{
-	border: solid black;
+    border: solid black;
     border-width: 0 2.5px 2.5px 0;
     display: inline-block;
     padding: 6px;.
-	border-color: currentColor;
-	border-color: rgba(81, 110, 119, 0.43);
+    border-color: currentColor;
+    border-color: rgba(81, 110, 119, 0.43);
+}
+
+.arrows-block-control{
+    float: right;
 }
 
 .arrow-left{
 	transform: rotate(135deg);
 	margin-right: 8px;
-	margin-left: 200px;
 }
 
 .arrow-right{
